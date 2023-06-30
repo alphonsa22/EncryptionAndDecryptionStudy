@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Usage example
-        let originalString = "2023-06-28 17:41 [DEBUG] [tag : testing] [AV : 1.0] [OS : 16.2] [ContentView.swift]:34 body : Tapped on listview cell 12"
+//        let originalString = "2023-06-28 17:41 [DEBUG] [tag : testing] [AV : 1.0] [OS : 16.2] [ContentView.swift]:34 body : Tapped on listview cell 12"
+        let originalString = "2023-06-26 14:34 [AV : 2.0] [OS : 16.2.0] [UUID : 61249068-ADB8-47FC-AC6D-AD2343118B14] [DEBUG] [ViewController.swift] : viewDidLoad() [Line 16]: Testing Log Level debug"
         let encryptionKey = "abcdefghijklmnop"
         let initializationVector = "1234567890abcdef"
 
